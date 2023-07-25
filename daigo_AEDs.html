@@ -1,0 +1,1917 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2bf25fb3614f992a6f779b1b4ac82471 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2bf25fb3614f992a6f779b1b4ac82471" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2bf25fb3614f992a6f779b1b4ac82471 = L.map(
+                "map_2bf25fb3614f992a6f779b1b4ac82471",
+                {
+                    center: [34.95072533177562, 135.81052658242643],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9a6c467d05b2a132351d5c18f095a94e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            var marker_768eff94f4a09b32ad812b9be741dda4 = L.marker(
+                [34.942141, 135.813519],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_768eff94f4a09b32ad812b9be741dda4.bindTooltip(
+                `<div>
+                     <b>財団283</b><p>（株）ビバ</p><p>京都市伏見区醍醐辰巳町4-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a0b82e13816c019728d22201643d098 = L.marker(
+                [34.942141, 135.813519],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_7a0b82e13816c019728d22201643d098.bindTooltip(
+                `<div>
+                     <b>財団284</b><p>（株）ビバ 京都市伏見東部地域体育館</p><p>京都市伏見区醍醐辰巳町4-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_faae12777fd5a93dc635069c65e94b23 = L.marker(
+                [34.949328, 135.810942],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_faae12777fd5a93dc635069c65e94b23.bindTooltip(
+                `<div>
+                     <b>財団255</b><p>（株）滋賀銀行　醍醐支店</p><p>京都市伏見区醍醐御霊ケ下町21−4</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c680853350c6f2436ff6bb6b01ba28d = L.marker(
+                [34.951877, 135.814955],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_3c680853350c6f2436ff6bb6b01ba28d.bindTooltip(
+                `<div>
+                     <b>財団288</b><p>(社福)醍醐福祉会 中山児童館</p><p>京都市伏見区醍醐中山町46</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d830780ef27bfb3567108ad6624e173 = L.marker(
+                [34.951877, 135.814955],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_4d830780ef27bfb3567108ad6624e173.bindTooltip(
+                `<div>
+                     <b>財団289</b><p>(社福)醍醐福祉会 中山児童館</p><p>京都市伏見区醍醐中山町46</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77978d4ecd09316afc7a94e8454bfe91 = L.marker(
+                [34.94833, 135.809148],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_77978d4ecd09316afc7a94e8454bfe91.bindTooltip(
+                `<div>
+                     <b>マップ306</b><p>あけぼのケアハウス</p><p>京都市伏見区醍醐大構町1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ce456df01bb45f3a9fd71d92fe55cae = L.marker(
+                [34.948313, 135.808744],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_6ce456df01bb45f3a9fd71d92fe55cae.bindTooltip(
+                `<div>
+                     <b>マップ309</b><p>あけぼのこども園</p><p>京都市伏見区醍醐大構町１−５</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ede37736eddc5e726dd5f769dfa9ef70 = L.marker(
+                [34.951724, 135.811412],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_ede37736eddc5e726dd5f769dfa9ef70.bindTooltip(
+                `<div>
+                     <b>マップ285</b><p>カーブス アルプラザ醍醐</p><p>京都市伏見区醍醐高畑町1-37　北館２F</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_678fd646a426b5896eb4dd704cad66a2 = L.marker(
+                [34.948257, 135.810603],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_678fd646a426b5896eb4dd704cad66a2.bindTooltip(
+                `<div>
+                     <b>マップ311</b><p>きのした歯科クリニック</p><p>京都市伏見区醍醐大構町１８－６シャローム醍醐１Ｆ</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6282e040526fb8bdef95fcccb0513b4 = L.marker(
+                [34.957064, 135.817868],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_d6282e040526fb8bdef95fcccb0513b4.bindTooltip(
+                `<div>
+                     <b>財団271</b><p>ぐり～んデイサービス醍醐</p><p>京都市伏見区醍醐切レ戸町13-3</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fff8ed82c3f89d05586dbc414dce739 = L.marker(
+                [34.943571, 135.80796],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_3fff8ed82c3f89d05586dbc414dce739.bindTooltip(
+                `<div>
+                     <b>マップ298</b><p>コープ 醍醐石田</p><p>京都市伏見区醍醐新開１１−１３</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6abe8041ef550d3088ff36ed2e1dcaee = L.marker(
+                [34.943571, 135.80796],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_6abe8041ef550d3088ff36ed2e1dcaee.bindTooltip(
+                `<div>
+                     <b>京都161</b><p>コープ醍醐石田</p><p>京都市伏見区醍醐新開１１−１３</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_accfffb88a13edd7e16dc150bd7f0177 = L.marker(
+                [34.943571, 135.80796],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_accfffb88a13edd7e16dc150bd7f0177.bindTooltip(
+                `<div>
+                     <b>財団268</b><p>コープ醍醐石田</p><p>京都市伏見区醍醐新開１１−１３</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7abe208cce2e2ad0260a6263a3cece8 = L.marker(
+                [34.951047, 135.810328],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_a7abe208cce2e2ad0260a6263a3cece8.bindTooltip(
+                `<div>
+                     <b>マップ288</b><p>コパンスポーツクラブ京都醍醐</p><p>京都市伏見区醍醐高畑町30-1 パセオ・ダイゴロー西館5F</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fab7dba2d322e66ef401b27394a7439b = L.marker(
+                [34.94955, 135.809753],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_fab7dba2d322e66ef401b27394a7439b.bindTooltip(
+                `<div>
+                     <b>マップ290</b><p>タナカ歯科医院</p><p>京都市伏見区醍醐高畑町３０−９</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36056af7b77bbd2d6a4547cdb7a94737 = L.marker(
+                [34.94955, 135.809753],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_36056af7b77bbd2d6a4547cdb7a94737.bindTooltip(
+                `<div>
+                     <b>財団261</b><p>タナカ歯科医院</p><p>京都市伏見区醍醐高畑町３０−９</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07354f6357979fe597ebb7eee455286f = L.marker(
+                [34.957115, 135.815561],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_07354f6357979fe597ebb7eee455286f.bindTooltip(
+                `<div>
+                     <b>マップ300</b><p>たのしい家　醍醐</p><p>京都市伏見区醍醐新町裏町5</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f1f992a9c165250575c2b90a82a2896 = L.marker(
+                [34.957187, 135.815773],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_0f1f992a9c165250575c2b90a82a2896.bindTooltip(
+                `<div>
+                     <b>京都162</b><p>たのしい家　醍醐</p><p>京都市伏見区醍醐新町裏町５ 醍醐ビル</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ad18d24cc1601fc177fc423a5c08e5d = L.marker(
+                [34.946726, 135.809772],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_4ad18d24cc1601fc177fc423a5c08e5d.bindTooltip(
+                `<div>
+                     <b>財団285</b><p>トヨタカローラ京都 醍醐店</p><p>京都市伏見区醍醐池田町1-5</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49a66bd80719998ae921d1ee2893033c = L.marker(
+                [34.946726, 135.809772],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_49a66bd80719998ae921d1ee2893033c.bindTooltip(
+                `<div>
+                     <b>財団286</b><p>トヨタカローラ京都 醍醐店</p><p>京都市伏見区醍醐池田町1-5</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_611995fa47b45d1e6686f8238cfecf1f = L.marker(
+                [34.946726, 135.809772],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_611995fa47b45d1e6686f8238cfecf1f.bindTooltip(
+                `<div>
+                     <b>マップ314</b><p>トヨタカローラ京都株式会社　醍醐店</p><p>京都市伏見区醍醐池田町１−５</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8deb979a45dec3917ec405e788322d2 = L.marker(
+                [34.946918, 135.815328],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_e8deb979a45dec3917ec405e788322d2.bindTooltip(
+                `<div>
+                     <b>マップ326</b><p>ドラッグユタカ　醍醐店</p><p>京都市伏見区醍醐南里町12番地</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_331635fe87edc05aba68cd288a692a0d = L.marker(
+                [34.946918, 135.815328],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_331635fe87edc05aba68cd288a692a0d.bindTooltip(
+                `<div>
+                     <b>京都171</b><p>ドラッグユタカ　醍醐店</p><p>京都市伏見区醍醐南里町１２</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afe2a64be92d6cc95b32a9a7803bf517 = L.marker(
+                [34.947203, 135.81479],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_afe2a64be92d6cc95b32a9a7803bf517.bindTooltip(
+                `<div>
+                     <b>財団290</b><p>ドラッグユタカ 醍醐店</p><p>京都市伏見区醍醐町南里町12番地</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_928d76e0edcf1e0be8bb2a0e4a200e7a = L.marker(
+                [34.951325, 135.810362],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_928d76e0edcf1e0be8bb2a0e4a200e7a.bindTooltip(
+                `<div>
+                     <b>マップ286</b><p>パセオ・ダイゴロー</p><p>京都市伏見区醍醐高畑町30-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_318997f9ddf515542b42c4823ae6e2ec = L.marker(
+                [34.949344, 135.810543],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_318997f9ddf515542b42c4823ae6e2ec.bindTooltip(
+                `<div>
+                     <b>マップ308</b><p>まぶち歯科医院</p><p>京都市伏見区醍醐大構町13　醍醐ビル2F</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e0d93fc9fdac5446a93a55fb67e39d5 = L.marker(
+                [34.949344, 135.810543],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_9e0d93fc9fdac5446a93a55fb67e39d5.bindTooltip(
+                `<div>
+                     <b>財団280</b><p>まぶち歯科医院</p><p>京都市伏見区醍醐大構町13 醍醐ビル2F</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79dd06544c2deaf690f99789f47e2462 = L.marker(
+                [34.946521, 135.814692],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_79dd06544c2deaf690f99789f47e2462.bindTooltip(
+                `<div>
+                     <b>マップ327</b><p>やの医院</p><p>京都市伏見区醍醐南里町26-3</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e1b564be53f79ea6f1b829fe44b6b9b = L.marker(
+                [34.946521, 135.814692],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_5e1b564be53f79ea6f1b829fe44b6b9b.bindTooltip(
+                `<div>
+                     <b>財団297</b><p>やの医院</p><p>京都市伏見区醍醐南里町26-3</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77bd12a92bb4c26ff053259076e4e68a = L.marker(
+                [34.943018, 135.811021],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_77bd12a92bb4c26ff053259076e4e68a.bindTooltip(
+                `<div>
+                     <b>マップ293</b><p>ロイヤルホームセンター醍醐店</p><p>京都市伏見区醍醐合場町23</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f486abefa5c54e2ed71d1807226770f8 = L.marker(
+                [34.943018, 135.811021],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_f486abefa5c54e2ed71d1807226770f8.bindTooltip(
+                `<div>
+                     <b>財団262</b><p>ロイヤルホームセンター醍醐店</p><p>京都市伏見区醍醐合場町23</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf9cd8299ba2d49b586bbcf15097a69d = L.marker(
+                [34.95533, 135.811409],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_cf9cd8299ba2d49b586bbcf15097a69d.bindTooltip(
+                `<div>
+                     <b>財団277</b><p>医療法人　松壽会　共和病院</p><p>京都市伏見区醍醐川久保町３０</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0d6f0d32021ec9b895646f18ebe2997 = L.marker(
+                [34.95533, 135.811409],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_d0d6f0d32021ec9b895646f18ebe2997.bindTooltip(
+                `<div>
+                     <b>財団274</b><p>医療法人　松壽会共和病院</p><p>京都市伏見区醍醐川久保町３０</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa41de8d24699f02f59555d36d54cf0f = L.marker(
+                [34.95533, 135.811409],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_fa41de8d24699f02f59555d36d54cf0f.bindTooltip(
+                `<div>
+                     <b>財団275</b><p>医療法人　松壽会共和病院</p><p>京都市伏見区醍醐川久保町３０</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62b0ab274ec02e751f797f1b989471d5 = L.marker(
+                [34.95533, 135.811409],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_62b0ab274ec02e751f797f1b989471d5.bindTooltip(
+                `<div>
+                     <b>財団276</b><p>医療法人　松壽会共和病院</p><p>京都市伏見区醍醐川久保町３０</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6d25133ccf8939182f94c67d4297fb0 = L.marker(
+                [34.95533, 135.811409],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_a6d25133ccf8939182f94c67d4297fb0.bindTooltip(
+                `<div>
+                     <b>財団273</b><p>医療法人松壽会共和病院</p><p>京都市伏見区醍醐川久保町３０</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd862b5559e0ea9bf515e4dbb0fa6fe0 = L.marker(
+                [34.945749, 135.808984],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_bd862b5559e0ea9bf515e4dbb0fa6fe0.bindTooltip(
+                `<div>
+                     <b>財団251</b><p>医療法人森田整形外科</p><p>京都市伏見区醍醐鍵尾町12-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e97ea5b34579eda1602f77825f36288 = L.marker(
+                [34.963699, 135.823042],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_7e97ea5b34579eda1602f77825f36288.bindTooltip(
+                `<div>
+                     <b>マップ324</b><p>介護老人保健施設　醍醐の里</p><p>京都市伏見区醍醐内ケ井戸１９−１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_846b8c861c643b3dc935c7920a3bf83c = L.marker(
+                [34.963699, 135.823042],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_846b8c861c643b3dc935c7920a3bf83c.bindTooltip(
+                `<div>
+                     <b>京都170</b><p>介護老人保健施設　醍醐の里</p><p>京都市伏見区醍醐内ケ井戸１９−１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_624af52300b1c0aca182342cf52bba43 = L.marker(
+                [34.958654, 135.82067],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_624af52300b1c0aca182342cf52bba43.bindTooltip(
+                `<div>
+                     <b>マップ281</b><p>学校法人　小野幼稚園</p><p>京都市伏見区醍醐古道町２２−２</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1b024196bd61c99e235665954b8477c = L.marker(
+                [34.951047, 135.810328],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_b1b024196bd61c99e235665954b8477c.bindTooltip(
+                `<div>
+                     <b>財団258</b><p>株式会社コパン　コパンスポーツクラブ京都醍醐</p><p>京都市伏見区醍醐高畑町３０−１　パセオ・ダイゴロー西館５Ｆ</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9af2dcda89b66a7a3ad92cd1a4d7df8 = L.marker(
+                [34.946914, 135.815445],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_e9af2dcda89b66a7a3ad92cd1a4d7df8.bindTooltip(
+                `<div>
+                     <b>マップ325</b><p>株式会社ユタカファーマシー　醍醐店 サービスカウンター</p><p>京都市伏見区醍醐南里町１１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc0f7775525da0c898e0fdd99d3d1365 = L.marker(
+                [34.950869, 135.811996],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_bc0f7775525da0c898e0fdd99d3d1365.bindTooltip(
+                `<div>
+                     <b>財団256</b><p>株式会社平和堂　アル・プラザ醍醐</p><p>京都市伏見区醍醐高畑町１−３７</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c59f29c88870413c30870de5ddcd5044 = L.marker(
+                [34.949328, 135.810942],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_c59f29c88870413c30870de5ddcd5044.bindTooltip(
+                `<div>
+                     <b>財団254</b><p>㈱滋賀銀行 醍醐支店</p><p>京都市伏見区醍醐御霊ヶ下町21-4</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5329ee692fd97148a24a2183553d7104 = L.marker(
+                [34.947602, 135.809317],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_5329ee692fd97148a24a2183553d7104.bindTooltip(
+                `<div>
+                     <b>財団282</b><p>京都市　伏見保健センター醍醐支所</p><p>京都市伏見区醍醐大構町28</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3401fa169cbf3d80676e2a53782eb2c = L.marker(
+                [34.951007, 135.810249],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_a3401fa169cbf3d80676e2a53782eb2c.bindTooltip(
+                `<div>
+                     <b>マップ292</b><p>京都市営地下鉄　醍醐駅</p><p>京都市伏見区醍醐高畑町82</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc7440fbe5663f4488e7e901e10f534a = L.marker(
+                [34.950817, 135.810661],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_cc7440fbe5663f4488e7e901e10f534a.bindTooltip(
+                `<div>
+                     <b>京都160</b><p>京都市営地下鉄　醍醐駅</p><p>京都市伏見区醍醐高畑町６</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86a97e5fe75ecd7f4ff1bf6a7c5bfc4f = L.marker(
+                [34.951325, 135.810362],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_86a97e5fe75ecd7f4ff1bf6a7c5bfc4f.bindTooltip(
+                `<div>
+                     <b>財団257</b><p>京都市交通局醍醐駅 （改札付近）</p><p>京都市伏見区醍醐高畑町30-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f72fbf0b7a575c67c18f24c8cc76fc3a = L.marker(
+                [34.95021, 135.81712],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_f72fbf0b7a575c67c18f24c8cc76fc3a.bindTooltip(
+                `<div>
+                     <b>マップ302</b><p>京都市醍醐児童館</p><p>京都市伏見区醍醐西大路町７４</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13bf0070ca126aab7ff55b4b6018d1ae = L.marker(
+                [34.950291, 135.817241],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_13bf0070ca126aab7ff55b4b6018d1ae.bindTooltip(
+                `<div>
+                     <b>京都163</b><p>京都市醍醐児童館</p><p>京都市伏見区醍醐西大路町75-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9150c1e4b4362d2b54acfaeb8f08145 = L.marker(
+                [34.950291, 135.817241],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_c9150c1e4b4362d2b54acfaeb8f08145.bindTooltip(
+                `<div>
+                     <b>財団270</b><p>京都市醍醐児童館</p><p>京都市伏見区醍醐西大路町75-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bb344a94ad9ccf9b6c7d94d8768b343 = L.marker(
+                [34.950817, 135.810661],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_4bb344a94ad9ccf9b6c7d94d8768b343.bindTooltip(
+                `<div>
+                     <b>マップ291</b><p>京都市醍醐地域体育館</p><p>京都市伏見区醍醐高畑町６</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55de270b900bcbc0d8557e36edddf97f = L.marker(
+                [34.951325, 135.810362],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_55de270b900bcbc0d8557e36edddf97f.bindTooltip(
+                `<div>
+                     <b>京都157</b><p>京都市醍醐地域体育館</p><p>京都市伏見区醍醐高畑町３０−１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca46101cd9e16782ca421a1b6a992a8d = L.marker(
+                [34.950735, 135.810434],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_ca46101cd9e16782ca421a1b6a992a8d.bindTooltip(
+                `<div>
+                     <b>マップ282</b><p>京都市醍醐中央児童館</p><p>京都市伏見区醍醐高畑町</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0a3694355dc3571bbd9e3b153524e1c = L.marker(
+                [34.951325, 135.810362],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_b0a3694355dc3571bbd9e3b153524e1c.bindTooltip(
+                `<div>
+                     <b>京都158</b><p>京都市醍醐中央児童館</p><p>京都市伏見区醍醐高畑町３０−１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f77b795cf5fc1508e385855bf4b0208 = L.marker(
+                [34.951325, 135.810362],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_7f77b795cf5fc1508e385855bf4b0208.bindTooltip(
+                `<div>
+                     <b>マップ287</b><p>京都市醍醐老人福祉センター</p><p>京都市伏見区醍醐高畑町30-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_926c15ace590e6f555def67d3ba4b965 = L.marker(
+                [34.951325, 135.810362],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_926c15ace590e6f555def67d3ba4b965.bindTooltip(
+                `<div>
+                     <b>京都159</b><p>京都市醍醐老人福祉センター</p><p>京都市伏見区醍醐高畑町３０−１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdcb00fe4f36315d3cb3f051fc7cadcb = L.marker(
+                [34.940189, 135.813252],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_cdcb00fe4f36315d3cb3f051fc7cadcb.bindTooltip(
+                `<div>
+                     <b>財団250</b><p>京都市辰己保育所</p><p>京都市伏見区醍醐外山街道町21-21</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65088c321d1859254c6cf66736dedb17 = L.marker(
+                [34.941054, 135.812951],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_65088c321d1859254c6cf66736dedb17.bindTooltip(
+                `<div>
+                     <b>マップ321</b><p>京都市辰巳児童館</p><p>京都市伏見区醍醐東合場町27-8</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ea7f2730dc0855ab7adc84f3d91267e = L.marker(
+                [34.941054, 135.812951],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_6ea7f2730dc0855ab7adc84f3d91267e.bindTooltip(
+                `<div>
+                     <b>財団291</b><p>京都市辰巳児童館</p><p>京都市伏見区醍醐東合場町27-8</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f677de044d8b3053622ab0d11dea2f2e = L.marker(
+                [34.940436, 135.81356],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_f677de044d8b3053622ab0d11dea2f2e.bindTooltip(
+                `<div>
+                     <b>マップ279</b><p>京都市辰巳保育所</p><p>京都市伏見区醍醐外山街道町21‐58</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c76f01997bf50375cd45d3224cd17e8 = L.marker(
+                [34.946668, 135.816602],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_6c76f01997bf50375cd45d3224cd17e8.bindTooltip(
+                `<div>
+                     <b>マップ329</b><p>京都市農業協同組合　醍醐支店</p><p>京都市伏見区醍醐南里町５−４</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4dc2fa8b41320fc556d78f2d9499ef5 = L.marker(
+                [34.946668, 135.816602],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_b4dc2fa8b41320fc556d78f2d9499ef5.bindTooltip(
+                `<div>
+                     <b>京都172</b><p>京都市農業協同組合　醍醐支店</p><p>京都市伏見区醍醐南里町５−４ 京都市農業協同組合醍醐支店</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b648ce8e3e6de2181042366da6c85dc6 = L.marker(
+                [34.94097, 135.812376],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_b648ce8e3e6de2181042366da6c85dc6.bindTooltip(
+                `<div>
+                     <b>マップ320</b><p>京都市伏見消防団 春日野分団</p><p>京都市伏見区醍醐東合場町２６−３</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3fca5c2f324d73d94bb07b4c1166664 = L.marker(
+                [34.946609, 135.807808],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_d3fca5c2f324d73d94bb07b4c1166664.bindTooltip(
+                `<div>
+                     <b>マップ317</b><p>京都市伏見消防団 醍醐池田分団</p><p>京都市伏見区醍醐池田町17番地の1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8b532916f17978216d4b49ba681404e = L.marker(
+                [34.949473, 135.813163],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_d8b532916f17978216d4b49ba681404e.bindTooltip(
+                `<div>
+                     <b>マップ301</b><p>京都市伏見消防団 醍醐分団</p><p>京都市伏見区醍醐西大路町１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93fe6fa68eb1001e491c5b74437b3843 = L.marker(
+                [34.942141, 135.813519],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_93fe6fa68eb1001e491c5b74437b3843.bindTooltip(
+                `<div>
+                     <b>マップ313</b><p>京都市伏見東部地域体育館</p><p>京都市伏見区醍醐辰巳町４‐1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0a71151712fab77f36a01317406a244 = L.marker(
+                [34.963883, 135.826574],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_d0a71151712fab77f36a01317406a244.bindTooltip(
+                `<div>
+                     <b>財団266</b><p>京都市埋立管理事務所</p><p>京都市伏見区醍醐上山田1番地</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c96dded060b9d6f715b0059ab09ae8fa = L.marker(
+                [34.950231, 135.817871],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_c96dded060b9d6f715b0059ab09ae8fa.bindTooltip(
+                `<div>
+                     <b>財団296</b><p>京都市立醍醐小学校</p><p>京都市伏見区醍醐東大路町31-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8e1ff9e3053f72b4f3b870b5049c20f = L.marker(
+                [34.944893, 135.812766],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_e8e1ff9e3053f72b4f3b870b5049c20f.bindTooltip(
+                `<div>
+                     <b>財団278</b><p>京都市立池田東小学校</p><p>京都市伏見区醍醐多近田町2-2</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77b37ff67c477b447f8670da685b8713 = L.marker(
+                [34.956863, 135.822329],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_77b37ff67c477b447f8670da685b8713.bindTooltip(
+                `<div>
+                     <b>財団299</b><p>京都市立北醍醐小学校</p><p>京都市伏見区醍醐片山町11</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a254bc6630bfb18938ff0f60e683c54 = L.marker(
+                [34.949262, 135.809993],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_6a254bc6630bfb18938ff0f60e683c54.bindTooltip(
+                `<div>
+                     <b>マップ307</b><p>京都中央信用金庫醍醐支店 営業室内</p><p>京都市伏見区醍醐大構町１２</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d8ed2d7a825010cb04211142062f41d = L.marker(
+                [34.954951, 135.817815],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_9d8ed2d7a825010cb04211142062f41d.bindTooltip(
+                `<div>
+                     <b>財団269</b><p>京都府立東稜高等学校</p><p>京都市伏見区醍醐新町裏町25-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_876dae57c44ecb1e053bb5b107cd88cc = L.marker(
+                [34.95533, 135.811409],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_876dae57c44ecb1e053bb5b107cd88cc.bindTooltip(
+                `<div>
+                     <b>マップ304</b><p>共和病院</p><p>京都市伏見区醍醐川久保町30</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9961f73d28792a6101f3f0f6190443f = L.marker(
+                [34.946609, 135.807808],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_a9961f73d28792a6101f3f0f6190443f.bindTooltip(
+                `<div>
+                     <b>マップ316</b><p>栗陵中学校</p><p>京都市伏見区醍醐池田町１７−１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5f4c9f0d3e8ec7f361b9e535d205158 = L.marker(
+                [34.954617, 135.817175],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_d5f4c9f0d3e8ec7f361b9e535d205158.bindTooltip(
+                `<div>
+                     <b>マップ299</b><p>山科警察署　醍醐交番 庁舎内</p><p>京都市伏見区醍醐新町裏町２４−３</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_549152f39a95dcf4994c05200e566816 = L.marker(
+                [34.949328, 135.810942],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_549152f39a95dcf4994c05200e566816.bindTooltip(
+                `<div>
+                     <b>京都155</b><p>滋賀銀行　醍醐支店</p><p>京都市伏見区醍醐御霊ヶ下町21番地の4</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ba901e3e968011f196a2a0a605175f3 = L.marker(
+                [34.951325, 135.810362],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_3ba901e3e968011f196a2a0a605175f3.bindTooltip(
+                `<div>
+                     <b>マップ289</b><p>耳鼻咽喉科たかきたクリニック</p><p>京都市伏見区醍醐高畑町30-1-2-22</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9189c4801fb4749288baecd4f628c139 = L.marker(
+                [34.951325, 135.810362],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_9189c4801fb4749288baecd4f628c139.bindTooltip(
+                `<div>
+                     <b>財団259</b><p>耳鼻咽喉科たかきたクリニック</p><p>京都市伏見区醍醐高畑町30-1-2-22</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c03f579702e75cc9ab49173b5778c3d = L.marker(
+                [34.951325, 135.810362],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_9c03f579702e75cc9ab49173b5778c3d.bindTooltip(
+                `<div>
+                     <b>財団260</b><p>耳鼻咽喉科たかきたクリニック</p><p>京都市伏見区醍醐高畑町30-1-2-22</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_329ff99d19c4d4e939b46296816d3780 = L.marker(
+                [34.946946, 135.817059],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_329ff99d19c4d4e939b46296816d3780.bindTooltip(
+                `<div>
+                     <b>マップ333</b><p>社会福祉法人　京都フレンドリーハウス</p><p>京都市伏見区醍醐槇ノ内町５８</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cfdb93cdde9c70a4b22d267495f0b8f = L.marker(
+                [34.949323, 135.810734],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_1cfdb93cdde9c70a4b22d267495f0b8f.bindTooltip(
+                `<div>
+                     <b>マップ310</b><p>社会福祉法人　京都福祉サービス協会　醍醐事務所</p><p>京都市伏見区醍醐大構町16</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24bf62e662c05c3d2a20462da4f3748b = L.marker(
+                [34.949305, 135.810712],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_24bf62e662c05c3d2a20462da4f3748b.bindTooltip(
+                `<div>
+                     <b>京都165</b><p>社会福祉法人　京都福祉サービス協会　醍醐事務所</p><p>京都市伏見区醍醐大構町１６ 内海ビル 2階</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d4c3b3c5505f8b391b696776999765f = L.marker(
+                [34.957455, 135.813784],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_8d4c3b3c5505f8b391b696776999765f.bindTooltip(
+                `<div>
+                     <b>マップ295</b><p>社会福祉法人　同和園</p><p>京都市伏見区醍醐上ノ山町１１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_760bc31a400a43adc437516034b1fb22 = L.marker(
+                [34.949305, 135.810712],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_760bc31a400a43adc437516034b1fb22.bindTooltip(
+                `<div>
+                     <b>財団281</b><p>社会福祉法人京都福祉サービス協会醍醐事務所</p><p>京都市伏見区醍醐大構町16番地内海ビル1F</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bdff87a262eceb20d146cca8c2c6098 = L.marker(
+                [34.946553, 135.814903],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_3bdff87a262eceb20d146cca8c2c6098.bindTooltip(
+                `<div>
+                     <b>マップ328</b><p>社会福祉法人京都老人福祉協会醍醐の家ほっこり</p><p>京都市伏見区醍醐南里町30-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e19da4f8525ae417d328e5211f837063 = L.marker(
+                [34.946553, 135.814903],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_e19da4f8525ae417d328e5211f837063.bindTooltip(
+                `<div>
+                     <b>財団298</b><p>社会福祉法人京都老人福祉協会醍醐の家ほっこり</p><p>京都市伏見区醍醐南里町30-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d52053d892f5e1889c11476705224c5c = L.marker(
+                [34.945373, 135.820224],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_d52053d892f5e1889c11476705224c5c.bindTooltip(
+                `<div>
+                     <b>財団267</b><p>社会福祉法人端山園　端山の丘こども園</p><p>京都市伏見区醍醐上端山町1-47</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adb6f6296300d3ea14459ee948eb55da = L.marker(
+                [34.957455, 135.813784],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_adb6f6296300d3ea14459ee948eb55da.bindTooltip(
+                `<div>
+                     <b>財団263</b><p>社会福祉法人同和園</p><p>京都市伏見区醍醐上ノ山町１１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_571ec9f92bbfcf001d68eebbd0ec774c = L.marker(
+                [34.957455, 135.813784],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_571ec9f92bbfcf001d68eebbd0ec774c.bindTooltip(
+                `<div>
+                     <b>財団264</b><p>社会福祉法人同和園</p><p>京都市伏見区醍醐上ノ山町１１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04a6e64e0add8979e8b34a9c51d2ba9c = L.marker(
+                [34.95146, 135.820299],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_04a6e64e0add8979e8b34a9c51d2ba9c.bindTooltip(
+                `<div>
+                     <b>財団294</b><p>宗教法人　醍醐寺</p><p>京都市伏見区醍醐東大路町２２</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_879825355d379c66e672f9d6932713d6 = L.marker(
+                [34.95146, 135.820299],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_879825355d379c66e672f9d6932713d6.bindTooltip(
+                `<div>
+                     <b>財団295</b><p>宗教法人　醍醐寺　三宝院</p><p>京都市伏見区醍醐東大路町２２</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbae2774cf1ede9740951020375b9f84 = L.marker(
+                [34.95146, 135.820299],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_dbae2774cf1ede9740951020375b9f84.bindTooltip(
+                `<div>
+                     <b>マップ322</b><p>宗教法人醍醐寺（三宝院）</p><p>京都市伏見区醍醐東大路町２２</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6407a8f625860e77ede0e4945791b613 = L.marker(
+                [34.945253, 135.83804],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_6407a8f625860e77ede0e4945791b613.bindTooltip(
+                `<div>
+                     <b>マップ312</b><p>宗教法人醍醐寺（上醍醐）</p><p>京都市伏見区醍醐醍醐山１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_851ffc2cf8b4a560589c8db62e660a29 = L.marker(
+                [34.945253, 135.83804],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_851ffc2cf8b4a560589c8db62e660a29.bindTooltip(
+                `<div>
+                     <b>京都168</b><p>宗教法人醍醐寺（上醍醐）</p><p>京都市伏見区醍醐醍醐山１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c36e225aaf501959351f49b76f5960de = L.marker(
+                [34.958208, 135.851],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_c36e225aaf501959351f49b76f5960de.bindTooltip(
+                `<div>
+                     <b>財団279</b><p>住友重機械工業株式会社 京都市焼却灰溶融施設内</p><p>京都市伏見区醍醐陀羅谷</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9783d6ece2d0fbc873c59619a8ae1b03 = L.marker(
+                [34.958654, 135.82067],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_9783d6ece2d0fbc873c59619a8ae1b03.bindTooltip(
+                `<div>
+                     <b>財団253</b><p>小野幼稚園</p><p>京都市伏見区醍醐古道町22の2</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3784d030348223e39e917ccffcabc650 = L.marker(
+                [34.963883, 135.826574],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_3784d030348223e39e917ccffcabc650.bindTooltip(
+                `<div>
+                     <b>財団265</b><p>松井 浩一（エコランド音羽の杜）</p><p>京都市伏見区醍醐上山田1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1109117d36be652cdd7de34ecd27089e = L.marker(
+                [34.94571, 135.816652],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_1109117d36be652cdd7de34ecd27089e.bindTooltip(
+                `<div>
+                     <b>マップ332</b><p>泉川医院</p><p>京都市伏見区醍醐槇ノ内町42-6</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08b5cc9c08de1f662e69cca949fb089f = L.marker(
+                [34.95146, 135.820299],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_08b5cc9c08de1f662e69cca949fb089f.bindTooltip(
+                `<div>
+                     <b>財団292</b><p>醍醐寺</p><p>京都市伏見区醍醐東大路町22</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9969eded1b57687d5ed5c6bd4b86ebb3 = L.marker(
+                [34.95146, 135.820299],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_9969eded1b57687d5ed5c6bd4b86ebb3.bindTooltip(
+                `<div>
+                     <b>財団293</b><p>醍醐寺</p><p>京都市伏見区醍醐東大路町22</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_232593f35009e631f8c45b1028e14d46 = L.marker(
+                [34.950032, 135.817778],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_232593f35009e631f8c45b1028e14d46.bindTooltip(
+                `<div>
+                     <b>マップ323</b><p>醍醐小学校</p><p>京都市伏見区醍醐東大路町３１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf80f969631bfd1f11b2e9fbac048650 = L.marker(
+                [34.950231, 135.817871],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_bf80f969631bfd1f11b2e9fbac048650.bindTooltip(
+                `<div>
+                     <b>京都169</b><p>醍醐小学校</p><p>京都市伏見区醍醐東大路町３１−１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b552f0d3dc2707d68b27cc57ea91882 = L.marker(
+                [34.947602, 135.809317],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_7b552f0d3dc2707d68b27cc57ea91882.bindTooltip(
+                `<div>
+                     <b>京都167</b><p>醍醐消防分署</p><p>京都市伏見区醍醐大構町２８</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76b0af1785417e050ce76599154717d8 = L.marker(
+                [34.952728, 135.811384],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_76b0af1785417e050ce76599154717d8.bindTooltip(
+                `<div>
+                     <b>マップ303</b><p>醍醐西小学校</p><p>京都市伏見区醍醐川久保町１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b63f1aebba40c2469e53bc1437ab7d3b = L.marker(
+                [34.952728, 135.811384],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_b63f1aebba40c2469e53bc1437ab7d3b.bindTooltip(
+                `<div>
+                     <b>京都164</b><p>醍醐西小学校</p><p>京都市伏見区醍醐川久保町１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1a3beb2218e175c00c3ec31e1f6ff00 = L.marker(
+                [34.952728, 135.811384],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_a1a3beb2218e175c00c3ec31e1f6ff00.bindTooltip(
+                `<div>
+                     <b>財団272</b><p>醍醐西小学校</p><p>京都市伏見区醍醐川久保1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99bf263e4488467a5b0fe58ea694a101 = L.marker(
+                [34.943912, 135.8154],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_99bf263e4488467a5b0fe58ea694a101.bindTooltip(
+                `<div>
+                     <b>マップ280</b><p>醍醐中学校</p><p>京都市伏見区醍醐岸ノ上町２１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0a23e3deee00a390288f2cc6cd442f6 = L.marker(
+                [34.943912, 135.8154],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_d0a23e3deee00a390288f2cc6cd442f6.bindTooltip(
+                `<div>
+                     <b>京都154</b><p>醍醐中学校</p><p>京都市伏見区醍醐岸ノ上町２１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f281c204486f0bdc307cf6dbc71833d5 = L.marker(
+                [34.947267, 135.815658],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_f281c204486f0bdc307cf6dbc71833d5.bindTooltip(
+                `<div>
+                     <b>マップ331</b><p>醍醐保育園</p><p>京都市伏見区醍醐和泉町17</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d5a730e67cc0fa74a1c888c7ae2c524 = L.marker(
+                [34.947267, 135.815658],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_4d5a730e67cc0fa74a1c888c7ae2c524.bindTooltip(
+                `<div>
+                     <b>京都174</b><p>醍醐保育園</p><p>京都市伏見区醍醐和泉町１７</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdaf27928eb58d3d1e5973f43107561c = L.marker(
+                [34.947267, 135.815658],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_bdaf27928eb58d3d1e5973f43107561c.bindTooltip(
+                `<div>
+                     <b>財団300</b><p>醍醐保育園</p><p>京都市伏見区醍醐和泉町17</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bac1a89c5e1882210c6a60a671141b1 = L.marker(
+                [34.947267, 135.815658],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_3bac1a89c5e1882210c6a60a671141b1.bindTooltip(
+                `<div>
+                     <b>財団301</b><p>醍醐保育園</p><p>京都市伏見区醍醐和泉町17</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_108970430c4fe7b7327c45c49519947a = L.marker(
+                [34.940436, 135.81356],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_108970430c4fe7b7327c45c49519947a.bindTooltip(
+                `<div>
+                     <b>財団248</b><p>辰巳診療所</p><p>京都市伏見区醍醐外山街道町21</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_175bc614e75141da33fc2198106bc737 = L.marker(
+                [34.940436, 135.81356],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_175bc614e75141da33fc2198106bc737.bindTooltip(
+                `<div>
+                     <b>財団249</b><p>辰巳診療所</p><p>京都市伏見区醍醐外山街道町２１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_017f8ee38437e21fbc1b466f53a1dbb9 = L.marker(
+                [34.945373, 135.820224],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_017f8ee38437e21fbc1b466f53a1dbb9.bindTooltip(
+                `<div>
+                     <b>マップ297</b><p>端山の丘こども園</p><p>京都市伏見区醍醐上端山町１−４７</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7aedb6427632e835d8e732d417ea984 = L.marker(
+                [34.946117, 135.807715],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_e7aedb6427632e835d8e732d417ea984.bindTooltip(
+                `<div>
+                     <b>マップ315</b><p>池田小学校</p><p>京都市伏見区醍醐池田町１７</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a46af4165760ee56d498191585534a4 = L.marker(
+                [34.946106, 135.80771],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_5a46af4165760ee56d498191585534a4.bindTooltip(
+                `<div>
+                     <b>財団252</b><p>池田小学校</p><p>京都市伏見区醍醐鍵尾町17</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f15c1284864d002d83553a947fda3a4e = L.marker(
+                [34.944954, 135.81244],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_f15c1284864d002d83553a947fda3a4e.bindTooltip(
+                `<div>
+                     <b>マップ305</b><p>池田東小学校</p><p>京都市伏見区醍醐多近田町４</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf33abda921953141d4f664e1f18697f = L.marker(
+                [34.952286, 135.816281],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_cf33abda921953141d4f664e1f18697f.bindTooltip(
+                `<div>
+                     <b>マップ319</b><p>中山児童館</p><p>京都市伏見区醍醐中山町４６−９</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc1af1be0fbb1831583735bd29e08965 = L.marker(
+                [34.952382, 135.814053],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_dc1af1be0fbb1831583735bd29e08965.bindTooltip(
+                `<div>
+                     <b>マップ318</b><p>中山保育園</p><p>京都市伏見区醍醐中山町39-13</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dccbc3944f56ce8ee3504e7ed80f57c = L.marker(
+                [34.952382, 135.814053],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_9dccbc3944f56ce8ee3504e7ed80f57c.bindTooltip(
+                `<div>
+                     <b>財団287</b><p>中山保育園</p><p>京都市伏見区醍醐中山町39-13</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b00206e6beb3c95fdc901e1bb969d47 = L.marker(
+                [34.947856, 135.819862],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_6b00206e6beb3c95fdc901e1bb969d47.bindTooltip(
+                `<div>
+                     <b>マップ278</b><p>特別養護老人ホーム　ヴィラ端山</p><p>京都市伏見区醍醐下端山町３７−２</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ce9ad538ec92144d0a436c91dc1d0a2 = L.marker(
+                [34.947602, 135.809317],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_1ce9ad538ec92144d0a436c91dc1d0a2.bindTooltip(
+                `<div>
+                     <b>京都166</b><p>伏見保健福祉センター醍醐支所</p><p>京都市伏見区醍醐大構町２８</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56e97ae64bd5c9a47d6cb7f1f68bd27e = L.marker(
+                [34.950869, 135.811996],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_56e97ae64bd5c9a47d6cb7f1f68bd27e.bindTooltip(
+                `<div>
+                     <b>マップ284</b><p>平和堂アル・プラザ醍醐</p><p>京都市伏見区醍醐高畑町1‐37</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86e2fc62e9f735487b4964c05a7049ee = L.marker(
+                [34.950869, 135.811996],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_86e2fc62e9f735487b4964c05a7049ee.bindTooltip(
+                `<div>
+                     <b>京都156</b><p>平和堂アル・プラザ醍醐</p><p>京都市伏見区醍醐高畑町１−３７</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7894041d907467f48b3b500bb535d829 = L.marker(
+                [34.950869, 135.811996],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_7894041d907467f48b3b500bb535d829.bindTooltip(
+                `<div>
+                     <b>マップ283</b><p>平和堂アル・プラザ醍醐 3階サービスカウンター</p><p>京都市伏見区醍醐高畑町１−３７</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b03b23fd22372c6ff1e085e9774dde3f = L.marker(
+                [34.956863, 135.822329],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_b03b23fd22372c6ff1e085e9774dde3f.bindTooltip(
+                `<div>
+                     <b>マップ330</b><p>北醍醐小学校</p><p>京都市伏見区醍醐片山町１１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_149b8da9660a0d3b45ebe02c285bb60b = L.marker(
+                [34.956863, 135.822329],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_149b8da9660a0d3b45ebe02c285bb60b.bindTooltip(
+                `<div>
+                     <b>京都173</b><p>北醍醐小学校</p><p>京都市伏見区醍醐片山町１１ 醍醐片山町１１</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_424e8a530c245ac5eea7b11299e3c528 = L.marker(
+                [34.96389, 135.826683],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_424e8a530c245ac5eea7b11299e3c528.bindTooltip(
+                `<div>
+                     <b>マップ296</b><p>埋立事業管理事務所 事務所</p><p>京都市伏見区醍醐上山田１０</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4bca37f635f49e9839e7439a2b5e6c6 = L.marker(
+                [34.944098, 135.811212],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_f4bca37f635f49e9839e7439a2b5e6c6.bindTooltip(
+                `<div>
+                     <b>マップ294</b><p>癒し太閤ねねの湯</p><p>京都市伏見区醍醐合場町27-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2aee4f1bcbba067116bf753fb8ba1e5 = L.marker(
+                [34.949098, 135.820302],
+                {}
+            ).addTo(map_2bf25fb3614f992a6f779b1b4ac82471);
+        
+    
+            marker_b2aee4f1bcbba067116bf753fb8ba1e5.bindTooltip(
+                `<div>
+                     <b>財団247</b><p>洛和グループホーム醍醐寺</p><p>京都市伏見区醍醐伽藍町21-1</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
