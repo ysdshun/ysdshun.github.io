@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_137b8ade80e000f2dc8c3cc7a70710c7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_137b8ade80e000f2dc8c3cc7a70710c7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_137b8ade80e000f2dc8c3cc7a70710c7 = L.map(
+                "map_137b8ade80e000f2dc8c3cc7a70710c7",
+                {
+                    center: [34.972714, 135.814886],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9132c6beac003456504ea575453bae11 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            var marker_76b8da51b6a3dab1eaf8ce33e84f8b8e = L.marker(
+                [34.97340369, 135.8027744],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_76b8da51b6a3dab1eaf8ce33e84f8b8e.bindTooltip(
+                `<div>
+                     福田金属箔粉工業株式会社京都工場
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4aad015891bb46422dff1a7a18241935 = L.marker(
+                [34.97389878, 135.8060017],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_4aad015891bb46422dff1a7a18241935.bindTooltip(
+                `<div>
+                     福田金属箔粉工業株式会社京都工場　第３工場
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47f7f3fef627e81ad710cb5a76981385 = L.marker(
+                [34.99061545, 135.8171108],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_47f7f3fef627e81ad710cb5a76981385.bindTooltip(
+                `<div>
+                     京都シティ開発株式会社（ラクトＢ棟1階アトリウム）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a124ee047995bec176be681d43e4b7f = L.marker(
+                [34.9900661, 135.8170062],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_4a124ee047995bec176be681d43e4b7f.bindTooltip(
+                `<div>
+                     京都シティ開発株式会社　ラクトスポーツプラザ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e549858c9261dd2b9d320396285de56 = L.marker(
+                [34.99047262, 135.8167461],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_6e549858c9261dd2b9d320396285de56.bindTooltip(
+                `<div>
+                     京都シティ開発株式会社（ラクトＢ棟地下１階防災センター）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82ba2fbc66dab30a8c89178293905a8f = L.marker(
+                [34.99047262, 135.8167461],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_82ba2fbc66dab30a8c89178293905a8f.bindTooltip(
+                `<div>
+                     京都シティ開発株式会社（ラクトＢ棟地下２階市営駐車場）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68ac1bb6a32a6b78e10f5bfc8509d566 = L.marker(
+                [34.99047262, 135.8167461],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_68ac1bb6a32a6b78e10f5bfc8509d566.bindTooltip(
+                `<div>
+                     京都シティ開発株式会社（駅前バスロータリー地下市営駐輪場）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fad8a54d936e781d2219a2c983b4df41 = L.marker(
+                [34.97114207, 135.8260614],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_fad8a54d936e781d2219a2c983b4df41.bindTooltip(
+                `<div>
+                     特別養護老人ホーム　ヴィラ山科
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccdcc5c8b24d8d140a9a20d333d9b38e = L.marker(
+                [34.9875874, 135.8286631],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_ccdcc5c8b24d8d140a9a20d333d9b38e.bindTooltip(
+                `<div>
+                     洛和会音羽病院外来棟
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d090938635113d94e5536262dd0528fa = L.marker(
+                [34.98739841, 135.8294731],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_d090938635113d94e5536262dd0528fa.bindTooltip(
+                `<div>
+                     洛和会音羽病院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84867639b7de3039bd3b056ff49dc1f6 = L.marker(
+                [34.98803175, 135.8300039],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_84867639b7de3039bd3b056ff49dc1f6.bindTooltip(
+                `<div>
+                     洛和会音羽病院　Ｃ棟
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70883a0e60c015da2b06f1ca490daa5e = L.marker(
+                [34.98802076, 135.829556],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_70883a0e60c015da2b06f1ca490daa5e.bindTooltip(
+                `<div>
+                     洛和会音羽病院　Ｄ棟
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e79e4852a60d3b4ed588b6baed1a9e4 = L.marker(
+                [34.98780275, 135.8331397],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_5e79e4852a60d3b4ed588b6baed1a9e4.bindTooltip(
+                `<div>
+                     洛和会音羽記念病院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d16dfa1ffbdc5de3ac54aab2f29c9e78 = L.marker(
+                [34.98773463, 135.8335018],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_d16dfa1ffbdc5de3ac54aab2f29c9e78.bindTooltip(
+                `<div>
+                     洛和ヴィラアエル
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e365e3e5e3d92ba32b4e9ba179cb7920 = L.marker(
+                [34.9540911, 135.8053547],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_e365e3e5e3d92ba32b4e9ba179cb7920.bindTooltip(
+                `<div>
+                     龍谷大学南大日グラウンド
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2991a65f64940ca7eb88283d66570dcd = L.marker(
+                [34.97682238, 135.8138292],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_2991a65f64940ca7eb88283d66570dcd.bindTooltip(
+                `<div>
+                     山科地域体育館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fd1d2990ab1bd2a7bdce10805e31c5f = L.marker(
+                [34.97664389, 135.8102889],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_9fd1d2990ab1bd2a7bdce10805e31c5f.bindTooltip(
+                `<div>
+                     山科中学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14acb9b84a92ecaf7c29d21e277ad1e4 = L.marker(
+                [34.988482, 135.802742],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_14acb9b84a92ecaf7c29d21e277ad1e4.bindTooltip(
+                `<div>
+                     花山中学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5db50ca5d07c457ce855cacac59d42da = L.marker(
+                [34.99222832, 135.817194],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_5db50ca5d07c457ce855cacac59d42da.bindTooltip(
+                `<div>
+                     京都市営地下鉄　山科駅
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a28d5765454837ca8ca94fb49d16e2c = L.marker(
+                [34.96100688, 135.8126557],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_6a28d5765454837ca8ca94fb49d16e2c.bindTooltip(
+                `<div>
+                     京都市営地下鉄　小野駅
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b37a7be6525268e887a33a4aa6c4af1c = L.marker(
+                [34.97259488, 135.8148336],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_b37a7be6525268e887a33a4aa6c4af1c.bindTooltip(
+                `<div>
+                     京都市営地下鉄　椥辻駅
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31e63f622f05720d268854f38dae5020 = L.marker(
+                [34.98199245, 135.8167058],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_31e63f622f05720d268854f38dae5020.bindTooltip(
+                `<div>
+                     京都市営地下鉄　東野駅
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f8e3086fbdc9ba5c56ba5a3f6ada686 = L.marker(
+                [34.99597251, 135.8018839],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_7f8e3086fbdc9ba5c56ba5a3f6ada686.bindTooltip(
+                `<div>
+                     京都市営地下鉄　御陵駅
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e1bdc07cd1476087c219240072b4a7b = L.marker(
+                [34.96601419, 135.8100647],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_2e1bdc07cd1476087c219240072b4a7b.bindTooltip(
+                `<div>
+                     勧修寺公園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_121c661e06589eb9eb284e50d791f878 = L.marker(
+                [34.9900661, 135.8175588],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_121c661e06589eb9eb284e50d791f878.bindTooltip(
+                `<div>
+                     京都中央信用金庫　山科支店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c71991af44e9f5aa2f898e29f65abe72 = L.marker(
+                [34.977285, 135.807409],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c71991af44e9f5aa2f898e29f65abe72.bindTooltip(
+                `<div>
+                     山階南小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28cd858b2da36446682f667e5c546219 = L.marker(
+                [34.99236016, 135.8171564],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_28cd858b2da36446682f667e5c546219.bindTooltip(
+                `<div>
+                     ＪＲ山科駅
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb8cb0f58eae66c18a2e99e9115fd06e = L.marker(
+                [34.95585417, 135.7928878],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_eb8cb0f58eae66c18a2e99e9115fd06e.bindTooltip(
+                `<div>
+                     株式会社深草ゴルフ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf182a48dd8182f41ac9aa1898b56f8b = L.marker(
+                [34.9905781, 135.8083051],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_bf182a48dd8182f41ac9aa1898b56f8b.bindTooltip(
+                `<div>
+                     アヴェ・マリア幼稚園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc21598fb5e5a244482010bc458b59d4 = L.marker(
+                [34.96453708, 135.8030722],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_fc21598fb5e5a244482010bc458b59d4.bindTooltip(
+                `<div>
+                     清水台幼稚園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b10f2cd6029fe93a69d08c1881fc1d5 = L.marker(
+                [34.96805615, 135.8116552],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_4b10f2cd6029fe93a69d08c1881fc1d5.bindTooltip(
+                `<div>
+                     すみれ幼稚園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c968275e0152fa31305067296380578f = L.marker(
+                [34.98406258, 135.8171028],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c968275e0152fa31305067296380578f.bindTooltip(
+                `<div>
+                     滋賀銀行　山科支店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52f548271966c890a525d68b9dfee85d = L.marker(
+                [34.99046603, 135.8243018],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_52f548271966c890a525d68b9dfee85d.bindTooltip(
+                `<div>
+                     滋賀銀行　四ノ宮支店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95801fd209c01ba4703ee3cf93ecc721 = L.marker(
+                [34.97427843, 135.8159548],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_95801fd209c01ba4703ee3cf93ecc721.bindTooltip(
+                `<div>
+                     滋賀銀行　山科南支店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97399309a5d84ca73342921c7f082422 = L.marker(
+                [34.97354875, 135.8049738],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_97399309a5d84ca73342921c7f082422.bindTooltip(
+                `<div>
+                     株式会社ファインシンター山科工場
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f5f5bff69d054c10277e2ae13c810bb = L.marker(
+                [34.97221904, 135.8136937],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_2f5f5bff69d054c10277e2ae13c810bb.bindTooltip(
+                `<div>
+                     山科保健福祉センター
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9dd048cbc47b3fde0432cde57820702 = L.marker(
+                [34.99662116, 135.8168777],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c9dd048cbc47b3fde0432cde57820702.bindTooltip(
+                `<div>
+                     京都府立洛東高等学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee1ca121dfc635de51e0680f0cd00d98 = L.marker(
+                [34.98602278, 135.8114111],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_ee1ca121dfc635de51e0680f0cd00d98.bindTooltip(
+                `<div>
+                     山科消防署
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc827c9b5f3554d2b8ee91cefdf2db7d = L.marker(
+                [34.98578694, 135.8126161],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_dc827c9b5f3554d2b8ee91cefdf2db7d.bindTooltip(
+                `<div>
+                     安祥寺中学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95d78d03049c2f98fad0bb782e793cf8 = L.marker(
+                [34.982893, 135.828175],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_95d78d03049c2f98fad0bb782e793cf8.bindTooltip(
+                `<div>
+                     音羽中学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bbfe3041f1dcc50247a65118cb3b277 = L.marker(
+                [34.966113, 135.812674],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_9bbfe3041f1dcc50247a65118cb3b277.bindTooltip(
+                `<div>
+                     勧修中学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b738b17dd751f2eb03ab09c336d353f6 = L.marker(
+                [34.96712306, 135.82157],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_b738b17dd751f2eb03ab09c336d353f6.bindTooltip(
+                `<div>
+                     大宅中学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4870ce5853624d4ee8e5d32b1118cd7 = L.marker(
+                [34.96136738, 135.8086377],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c4870ce5853624d4ee8e5d32b1118cd7.bindTooltip(
+                `<div>
+                     特別養護老人ホーム長楽園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c164e4b5a5cc36c3aea0938fe2030503 = L.marker(
+                [34.99240191, 135.825195],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c164e4b5a5cc36c3aea0938fe2030503.bindTooltip(
+                `<div>
+                     株式会社　砂崎製作所
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b420f7a94b5c01408239ee5f27f3046 = L.marker(
+                [34.9748557, 135.824041],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_2b420f7a94b5c01408239ee5f27f3046.bindTooltip(
+                `<div>
+                     おおやけこども園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28988e23e23af7dd79e756a2ee22580a = L.marker(
+                [34.99078246, 135.8209437],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_28988e23e23af7dd79e756a2ee22580a.bindTooltip(
+                `<div>
+                     科研製薬株式会社総合研究所
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_629878b76c099b3c485b1d0892cc8c6d = L.marker(
+                [34.98008709, 135.8124974],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_629878b76c099b3c485b1d0892cc8c6d.bindTooltip(
+                `<div>
+                     株式会社ヤマシナ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b4697d3c3a791e02205b7a3c11be9b3 = L.marker(
+                [34.97650261, 135.8140182],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_2b4697d3c3a791e02205b7a3c11be9b3.bindTooltip(
+                `<div>
+                     京都市東部文化会館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29bc5ce1f80b30fee8b62f01a5668ba8 = L.marker(
+                [34.98635241, 135.8162901],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_29bc5ce1f80b30fee8b62f01a5668ba8.bindTooltip(
+                `<div>
+                     京都市山科合同福祉センター
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c8a19be118bbb7f7f7ea1f4e06d3e37 = L.marker(
+                [34.97847618, 135.8156195],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_3c8a19be118bbb7f7f7ea1f4e06d3e37.bindTooltip(
+                `<div>
+                     株式会社　アポロ自動車
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcf0a7eaf0d563c8410f23ab51ed788f = L.marker(
+                [34.97876188, 135.8153781],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_fcf0a7eaf0d563c8410f23ab51ed788f.bindTooltip(
+                `<div>
+                     株式会社　アポロ自動車
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e014646c81259617d3cb2316bf5a82a = L.marker(
+                [34.9783597, 135.7882717],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_2e014646c81259617d3cb2316bf5a82a.bindTooltip(
+                `<div>
+                     京都東山テニスクラブ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bbf9b3b2173ec2460bc00dea5c84a2c = L.marker(
+                [34.9688694, 135.8043945],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_2bbf9b3b2173ec2460bc00dea5c84a2c.bindTooltip(
+                `<div>
+                     洛和グループホーム勧修２番館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6fda28102d422ad8c88c5b8b6d7c986 = L.marker(
+                [34.98090242, 135.7927483],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c6fda28102d422ad8c88c5b8b6d7c986.bindTooltip(
+                `<div>
+                     特別養護老人ホーム　東旺苑
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80031cb3a63b775cf66d698a02cac6eb = L.marker(
+                [34.98188256, 135.7986894],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_80031cb3a63b775cf66d698a02cac6eb.bindTooltip(
+                `<div>
+                     特別養護老人ホーム 山科積慶園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de53d048338e53d3ca86e8ca02386271 = L.marker(
+                [34.96544049, 135.8180523],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_de53d048338e53d3ca86e8ca02386271.bindTooltip(
+                `<div>
+                     山科警察署
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b33ea6b94a168670152eb010313ddc0d = L.marker(
+                [34.98134414, 135.8220005],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_b33ea6b94a168670152eb010313ddc0d.bindTooltip(
+                `<div>
+                     ネッツトヨタヤサカ株式会社　山科店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5904856d4e6f81ff755deea26e7e5f92 = L.marker(
+                [34.97711798, 135.8160353],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_5904856d4e6f81ff755deea26e7e5f92.bindTooltip(
+                `<div>
+                     京都三菱自動車販売株式会社　山科店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc61537cd643db521a84b768c2dfd254 = L.marker(
+                [34.98792141, 135.8182454],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_fc61537cd643db521a84b768c2dfd254.bindTooltip(
+                `<div>
+                     京都洛東迎賓館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e430f689d0cbaaa60e7e7fba1c98dc31 = L.marker(
+                [34.97909593, 135.8321446],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_e430f689d0cbaaa60e7e7fba1c98dc31.bindTooltip(
+                `<div>
+                     東総合支援学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50e7ebad5c629bb1951a138e21919874 = L.marker(
+                [34.97439492, 135.8236232],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_50e7ebad5c629bb1951a138e21919874.bindTooltip(
+                `<div>
+                     大宅小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4621b3a1764c4249efd8d6eb0941eacb = L.marker(
+                [34.98302752, 135.8297601],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_4621b3a1764c4249efd8d6eb0941eacb.bindTooltip(
+                `<div>
+                     大塚小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0697f07ae328f6250ad794693eca0a6 = L.marker(
+                [35.00417661, 135.7915601],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_f0697f07ae328f6250ad794693eca0a6.bindTooltip(
+                `<div>
+                     東京海上日動サミュエル株式会社　ヒルデモア東山
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd7f7ec4e1038f769cfb042393d8de6a = L.marker(
+                [34.98918714, 135.8115801],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_bd7f7ec4e1038f769cfb042393d8de6a.bindTooltip(
+                `<div>
+                     学校法人京都薬科大学（南校舎）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96b2fc26a188cf568fae82a737d13e59 = L.marker(
+                [34.99018696, 135.8100405],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_96b2fc26a188cf568fae82a737d13e59.bindTooltip(
+                `<div>
+                     学校法人京都薬科大学（本校警備員室）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32b647baae85784d6e0e55c3a58336b0 = L.marker(
+                [34.9905737, 135.8078894],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_32b647baae85784d6e0e55c3a58336b0.bindTooltip(
+                `<div>
+                     学校法人京都薬科大学（グランド）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24d86cd7d1388a43b4d814f26056b3ba = L.marker(
+                [34.99017158, 135.8110195],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_24d86cd7d1388a43b4d814f26056b3ba.bindTooltip(
+                `<div>
+                     学校法人京都薬科大学（体育館）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9795756341fe5af9e12200504b99afa = L.marker(
+                [34.96498989, 135.8148497],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c9795756341fe5af9e12200504b99afa.bindTooltip(
+                `<div>
+                     山科まち美化事務所
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c3bfc6e57376cf90ce8f202bfef8a6f = L.marker(
+                [35.00415684, 135.832952],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_8c3bfc6e57376cf90ce8f202bfef8a6f.bindTooltip(
+                `<div>
+                     永興小金塚こども園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7882f3ae08748ab08659d40c59e25770 = L.marker(
+                [34.96966506, 135.8260909],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_7882f3ae08748ab08659d40c59e25770.bindTooltip(
+                `<div>
+                     岩屋こども園アカンパニ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9df1714fda6fed564f3e94c0c60ab2ed = L.marker(
+                [34.97464767, 135.8237386],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_9df1714fda6fed564f3e94c0c60ab2ed.bindTooltip(
+                `<div>
+                     京都市大宅児童館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_053db06a5c69c63536d4450b1a080268 = L.marker(
+                [34.98918274, 135.8042329],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_053db06a5c69c63536d4450b1a080268.bindTooltip(
+                `<div>
+                     山科保育園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb114e9747d24b5fe3555edcc6d75a4d = L.marker(
+                [34.98937282, 135.8043596],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_bb114e9747d24b5fe3555edcc6d75a4d.bindTooltip(
+                `<div>
+                     京都市花山児童館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0975cd13de54deb4e3e81965cf8c1bb = L.marker(
+                [34.9652097, 135.8162338],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_d0975cd13de54deb4e3e81965cf8c1bb.bindTooltip(
+                `<div>
+                     チャーム京都山科
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d07f3d676130cc2bcdcbfe6701ea0d2b = L.marker(
+                [34.99167459, 135.8019751],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_d07f3d676130cc2bcdcbfe6701ea0d2b.bindTooltip(
+                `<div>
+                     陵ケ岡こども園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b63d19a17e2fff66f1ab1a6934e0c980 = L.marker(
+                [34.9918028, 135.8021465],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_b63d19a17e2fff66f1ab1a6934e0c980.bindTooltip(
+                `<div>
+                     陵ヶ岡児童館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cdf52d2d50ca5fca692601c042a7c54 = L.marker(
+                [34.98633703, 135.8152118],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_9cdf52d2d50ca5fca692601c042a7c54.bindTooltip(
+                `<div>
+                     京都市山階児童館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e13b3b490a74f7430202ab4e617e87a = L.marker(
+                [34.97755863, 135.8138184],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_5e13b3b490a74f7430202ab4e617e87a.bindTooltip(
+                `<div>
+                     東野こども園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57ed15ed536c388d2ba63083d2683997 = L.marker(
+                [34.97258884, 135.8034819],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_57ed15ed536c388d2ba63083d2683997.bindTooltip(
+                `<div>
+                     京都市勧修児童館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfc75a4fe97f31079609b3b65f2a4af8 = L.marker(
+                [34.98952994, 135.8228159],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_cfc75a4fe97f31079609b3b65f2a4af8.bindTooltip(
+                `<div>
+                     京都市四ノ宮児童館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ed89f27b8b97a73a430b499999563e9 = L.marker(
+                [34.97924318, 135.8153352],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_0ed89f27b8b97a73a430b499999563e9.bindTooltip(
+                `<div>
+                     山階南児童館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b697e325391b6d04c67e36baf64bc0bf = L.marker(
+                [34.98887291, 135.8048907],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_b697e325391b6d04c67e36baf64bc0bf.bindTooltip(
+                `<div>
+                     京都市鏡山保育所
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bac2020806c5687845846cfaeb9dcbe = L.marker(
+                [34.98013544, 135.8171403],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_9bac2020806c5687845846cfaeb9dcbe.bindTooltip(
+                `<div>
+                     こばと保育園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03c44c4b574a69fcf391b6e7040c8072 = L.marker(
+                [34.97654876, 135.8007869],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_03c44c4b574a69fcf391b6e7040c8072.bindTooltip(
+                `<div>
+                     京都市百々児童館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1af96276854fcb7d83ba62fa19a77f4c = L.marker(
+                [34.98731711, 135.8333784],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_1af96276854fcb7d83ba62fa19a77f4c.bindTooltip(
+                `<div>
+                     三栄メディシス株式会社
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07e9780a53463519ebe24904473cd2ac = L.marker(
+                [34.98695013, 135.8144823],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_07e9780a53463519ebe24904473cd2ac.bindTooltip(
+                `<div>
+                     マツヤスーパー山科三条店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c365ca228fc47db17107dc81ebec46f9 = L.marker(
+                [34.99138673, 135.8186048],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c365ca228fc47db17107dc81ebec46f9.bindTooltip(
+                `<div>
+                     安朱保育園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58f399ce220356bc0658f7b7d04ccea1 = L.marker(
+                [34.9821557, 135.8260586],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_58f399ce220356bc0658f7b7d04ccea1.bindTooltip(
+                `<div>
+                     株式会社　ロマンライフ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60bdd1fa2ef88bfaefba7a5a4da99207 = L.marker(
+                [34.99338851, 135.7934538],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_60bdd1fa2ef88bfaefba7a5a4da99207.bindTooltip(
+                `<div>
+                     京都大学理学研究科附属　花山天文台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c467850e79fd9f6d24f26366c87c3bf7 = L.marker(
+                [34.98546461, 135.8173603],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c467850e79fd9f6d24f26366c87c3bf7.bindTooltip(
+                `<div>
+                     京都トヨペット（株）　山科店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b07c6eddb3d89a2ff6efa877605199f = L.marker(
+                [34.983762, 135.8130519],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_6b07c6eddb3d89a2ff6efa877605199f.bindTooltip(
+                `<div>
+                     山階小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aefbf9cc3547bf98b3a3744b4abee7b6 = L.marker(
+                [34.9822901, 135.8033231],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_aefbf9cc3547bf98b3a3744b4abee7b6.bindTooltip(
+                `<div>
+                     西野小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b707b705970850e119457cd96aa5d291 = L.marker(
+                [34.9962257, 135.8182786],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_b707b705970850e119457cd96aa5d291.bindTooltip(
+                `<div>
+                     安朱小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e4c06acee94f5917de544a5341fb4d7 = L.marker(
+                [34.9905847, 135.8063064],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_9e4c06acee94f5917de544a5341fb4d7.bindTooltip(
+                `<div>
+                     鏡山小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96dc901462950e07a9f8d66453b01503 = L.marker(
+                [34.9927494, 135.803249],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_96dc901462950e07a9f8d66453b01503.bindTooltip(
+                `<div>
+                     陵ヶ岡小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00a9ded0669be941c0656ab0ac52a6fc = L.marker(
+                [34.9858403, 135.8249887],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_00a9ded0669be941c0656ab0ac52a6fc.bindTooltip(
+                `<div>
+                     音羽小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fed084614c4f9a552d902b40cfe7014 = L.marker(
+                [34.9828382, 135.8211145],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_3fed084614c4f9a552d902b40cfe7014.bindTooltip(
+                `<div>
+                     音羽川小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ceb02f9bcbcccdf21bfaf985859aa8ac = L.marker(
+                [34.9699707, 135.8083448],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_ceb02f9bcbcccdf21bfaf985859aa8ac.bindTooltip(
+                `<div>
+                     勧修小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3408c4ffa79f6c2b449f90439171d1c = L.marker(
+                [34.9636727, 135.8117547],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_a3408c4ffa79f6c2b449f90439171d1c.bindTooltip(
+                `<div>
+                     小野小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cf0b3abf707016589377039552b7d7d = L.marker(
+                [34.9767486, 135.7960601],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_1cf0b3abf707016589377039552b7d7d.bindTooltip(
+                `<div>
+                     百々小学校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90bf8092601dda83fb1e88e512bc82d5 = L.marker(
+                [34.98963541, 135.8156464],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_90bf8092601dda83fb1e88e512bc82d5.bindTooltip(
+                `<div>
+                     ドラッグユタカ　山科店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dc41557f0fdf6647528ef671cbb331e = L.marker(
+                [34.98171554, 135.8031392],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_9dc41557f0fdf6647528ef671cbb331e.bindTooltip(
+                `<div>
+                     ドラッグユタカ　山科西野店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd1811cd07c202278b76df3befdfd1ce = L.marker(
+                [34.98428014, 135.8176178],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_fd1811cd07c202278b76df3befdfd1ce.bindTooltip(
+                `<div>
+                     ドラッグユタカ　山科音羽店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9ec9c8067059b53fb57c1c537d951e6 = L.marker(
+                [34.98717, 135.8011984],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_b9ec9c8067059b53fb57c1c537d951e6.bindTooltip(
+                `<div>
+                     ドラッグユタカ　山科北花山店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf0328befce5cc2c55c861a338bd5543 = L.marker(
+                [34.9692667, 135.807867],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_cf0328befce5cc2c55c861a338bd5543.bindTooltip(
+                `<div>
+                     フレスコ勧修店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37419c614e30573ebb3f27277d202afd = L.marker(
+                [34.9781685, 135.7977158],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_37419c614e30573ebb3f27277d202afd.bindTooltip(
+                `<div>
+                     コレモ川田店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_178020fae2595dfc7c2972345489ec90 = L.marker(
+                [34.97473119, 135.8026323],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_178020fae2595dfc7c2972345489ec90.bindTooltip(
+                `<div>
+                     洛東ゴルフ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e90c4df3531bbe1aeb781feebd234660 = L.marker(
+                [34.97823663, 135.7943228],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_e90c4df3531bbe1aeb781feebd234660.bindTooltip(
+                `<div>
+                     高齢者総合福祉住宅　きよみず苑・京都東
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b7364a5ac79b878684e5b94de080df1 = L.marker(
+                [34.98638757, 135.7903504],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_5b7364a5ac79b878684e5b94de080df1.bindTooltip(
+                `<div>
+                     東山浄苑
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5329fb6767b2da6c2a7fa5560fe77437 = L.marker(
+                [34.96648237, 135.8022085],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_5329fb6767b2da6c2a7fa5560fe77437.bindTooltip(
+                `<div>
+                     西野山保育園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fd9d0cf83b6173cb1275aea8bdaecc0 = L.marker(
+                [34.9918317, 135.8085506],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_3fd9d0cf83b6173cb1275aea8bdaecc0.bindTooltip(
+                `<div>
+                     たのしいデイ やましな
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8ced1f2ad865b8e1d263e32d5a136d8 = L.marker(
+                [34.9810473, 135.8197799],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_b8ced1f2ad865b8e1d263e32d5a136d8.bindTooltip(
+                `<div>
+                     （株）公益社　山科ブライトホール
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a85b8a86fec23f2f5230f06655573aa = L.marker(
+                [34.9699335, 135.8149634],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_6a85b8a86fec23f2f5230f06655573aa.bindTooltip(
+                `<div>
+                     ふじしろ歯科医院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99f2cde78ec0e0a7d4b2a9668c69d975 = L.marker(
+                [34.9872258, 135.8097251],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_99f2cde78ec0e0a7d4b2a9668c69d975.bindTooltip(
+                `<div>
+                     若林保育園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa7ed4a2faa9957d89f622e84f12e1c2 = L.marker(
+                [34.9849982, 135.8087558],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_fa7ed4a2faa9957d89f622e84f12e1c2.bindTooltip(
+                `<div>
+                     山階保育園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97df37c9f1b2aafe205fba9e8a7ccc4a = L.marker(
+                [34.9573651, 135.8104666],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_97df37c9f1b2aafe205fba9e8a7ccc4a.bindTooltip(
+                `<div>
+                     複合型福祉施設　喜林苑
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9e21c2a27eca6523aa8b9c43d6bcddf = L.marker(
+                [34.97127835, 135.8036542],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_d9e21c2a27eca6523aa8b9c43d6bcddf.bindTooltip(
+                `<div>
+                     なかとみこども園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bcf1b04ca0731c93b49de93ab164ca8 = L.marker(
+                [34.966495, 135.8154522],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_3bcf1b04ca0731c93b49de93ab164ca8.bindTooltip(
+                `<div>
+                     株式会社ケーソーホー
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca938f0952a290544fc41335fd6e66a2 = L.marker(
+                [34.95773811, 135.8092171],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_ca938f0952a290544fc41335fd6e66a2.bindTooltip(
+                `<div>
+                     デイサービス喜林
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a5cbeb9dbc29eef505f5aa7e72cdb60 = L.marker(
+                [34.98347363, 135.833542],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_5a5cbeb9dbc29eef505f5aa7e72cdb60.bindTooltip(
+                `<div>
+                     社会福祉法人　緑寿会
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fae81efc06af5191ac0bccb18c6bb41 = L.marker(
+                [34.9669014, 135.8056949],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_6fae81efc06af5191ac0bccb18c6bb41.bindTooltip(
+                `<div>
+                     勧修保育園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8dbe3ac8484bc29e6888f1b857916e99 = L.marker(
+                [34.97304764, 135.8120576],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_8dbe3ac8484bc29e6888f1b857916e99.bindTooltip(
+                `<div>
+                     椥辻こども園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82de6adefb3f042515401129480350e3 = L.marker(
+                [34.9694684, 135.8067882],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_82de6adefb3f042515401129480350e3.bindTooltip(
+                `<div>
+                     坂部医院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7536f585f78a24ba3cda3195cd245e59 = L.marker(
+                [34.9713107, 135.8010401],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_7536f585f78a24ba3cda3195cd245e59.bindTooltip(
+                `<div>
+                     リハビリデイサービス雅
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6e6c2f7f9a729fdba9762fbabeed830 = L.marker(
+                [34.96816385, 135.8133195],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_e6e6c2f7f9a729fdba9762fbabeed830.bindTooltip(
+                `<div>
+                     社会福祉法人　京都福祉サービス協会　山科事務所
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c945fd002419b88b4e48a6388ac8f31 = L.marker(
+                [34.98714351, 135.802179],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_1c945fd002419b88b4e48a6388ac8f31.bindTooltip(
+                `<div>
+                     医療法人　赤城医院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_266c61118dceb1788460a8fd6afbcf22 = L.marker(
+                [34.9866119, 135.8165919],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_266c61118dceb1788460a8fd6afbcf22.bindTooltip(
+                `<div>
+                     山科幼稚園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1743b04217a0ac277bbaccd598a85757 = L.marker(
+                [34.9860026, 135.8152574],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_1743b04217a0ac277bbaccd598a85757.bindTooltip(
+                `<div>
+                     京都市山科青少年活動センター
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93461a65d378f5a85ea47e7da6993ca7 = L.marker(
+                [34.9841697, 135.8088081],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_93461a65d378f5a85ea47e7da6993ca7.bindTooltip(
+                `<div>
+                     洛東幼稚園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ab8da3a76ad7bb360e0ff1ebbcd9a88 = L.marker(
+                [34.99458384, 135.8055747],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_5ab8da3a76ad7bb360e0ff1ebbcd9a88.bindTooltip(
+                `<div>
+                     洛和ホームライフみささぎ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_156c8a4ccfd10cff2be89200dad886ae = L.marker(
+                [34.98811314, 135.8252728],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_156c8a4ccfd10cff2be89200dad886ae.bindTooltip(
+                `<div>
+                     洛和ホームライフ音羽
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7b747d2cde121cfa8d4f5e3fc1cba4a = L.marker(
+                [34.98200893, 135.8226389],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_d7b747d2cde121cfa8d4f5e3fc1cba4a.bindTooltip(
+                `<div>
+                     洛和ホームライフ山科東野
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b9ee29152868818e2f6f3343942d659 = L.marker(
+                [34.99175369, 135.825883],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_9b9ee29152868818e2f6f3343942d659.bindTooltip(
+                `<div>
+                     洛和ホームライフ四ノ宮
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbcb76e2814e090d9de323d59691dbaa = L.marker(
+                [34.962547, 135.7994321],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_bbcb76e2814e090d9de323d59691dbaa.bindTooltip(
+                `<div>
+                     京都市上下水道局　新山科浄水場
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f61d386604ab80ed44655ff1129d6135 = L.marker(
+                [34.96326417, 135.8112939],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_f61d386604ab80ed44655ff1129d6135.bindTooltip(
+                `<div>
+                     京都市小野児童館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a548afdadc389d13b426519246ec7a3a = L.marker(
+                [34.98464034, 135.8277662],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_a548afdadc389d13b426519246ec7a3a.bindTooltip(
+                `<div>
+                     ダックス山科小山店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c810016860da80a49fa5bf5d510ea769 = L.marker(
+                [34.9673892, 135.8091668],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c810016860da80a49fa5bf5d510ea769.bindTooltip(
+                `<div>
+                     ダックス山科勧修寺店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8667ed4e1d5e0e582506dd07718f8164 = L.marker(
+                [34.98605098, 135.8072895],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_8667ed4e1d5e0e582506dd07718f8164.bindTooltip(
+                `<div>
+                     京都市農業協同組合　山科北部支店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a6eda1b18d7c8cce2634ac3614d0f29 = L.marker(
+                [34.97401678, 135.8144615],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_6a6eda1b18d7c8cce2634ac3614d0f29.bindTooltip(
+                `<div>
+                     京都市農業協同組合　山科南部支店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79ba8b8029b8072c90bdf9ac79972582 = L.marker(
+                [34.974869, 135.813958],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_79ba8b8029b8072c90bdf9ac79972582.bindTooltip(
+                `<div>
+                     京都市山科老人福祉センター
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d71b2e0c740bc59c80a417f6d5e7f705 = L.marker(
+                [34.985084, 135.814738],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_d71b2e0c740bc59c80a417f6d5e7f705.bindTooltip(
+                `<div>
+                     京都市山科中央老人福祉センター
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a411078c55cebdae5423c844a50bf63b = L.marker(
+                [34.99600803, 135.8035992],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_a411078c55cebdae5423c844a50bf63b.bindTooltip(
+                `<div>
+                     笑顔とふれあいの家　みささぎ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1f3466ace8154112af61bf0f3943885 = L.marker(
+                [34.97317895, 135.7978254],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_a1f3466ace8154112af61bf0f3943885.bindTooltip(
+                `<div>
+                     株式会社王将フードサービス
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17c87d4c334b8a966abe84130e803101 = L.marker(
+                [34.98572295, 135.8177471],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_17c87d4c334b8a966abe84130e803101.bindTooltip(
+                `<div>
+                     西念寺保育園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba9f219efc96063ecc32ffbd15a1895f = L.marker(
+                [34.97395263, 135.8162905],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_ba9f219efc96063ecc32ffbd15a1895f.bindTooltip(
+                `<div>
+                     ダックスイオンタウン山科椥辻店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fef0969b43c0b4311d9d8ea2e6744de = L.marker(
+                [34.9874601631771, 135.80167957490767],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_7fef0969b43c0b4311d9d8ea2e6744de.bindTooltip(
+                `<div>
+                     フレスコ北花山店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0181e64cdb871467dd6a1c38fe0a006 = L.marker(
+                [34.986304284875, 135.80889849944458],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_c0181e64cdb871467dd6a1c38fe0a006.bindTooltip(
+                `<div>
+                     フレスコ西野店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_591c3d1c81f2e6fb9ff1835e8e20aa1b = L.marker(
+                [34.9839321465179, 135.81758301968227],
+                {}
+            ).addTo(map_137b8ade80e000f2dc8c3cc7a70710c7);
+        
+    
+            marker_591c3d1c81f2e6fb9ff1835e8e20aa1b.bindTooltip(
+                `<div>
+                     フレスコ山科店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
